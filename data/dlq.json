@@ -1,0 +1,46 @@
+{
+  "job1": {
+    "id": "job1",
+    "command": "echo Hello World",
+    "state": "dead",
+    "attempts": 3,
+    "max_retries": 3,
+    "created_at": "2025-11-09T18:04:00.224989Z",
+    "updated_at": "2025-11-09T18:04:08.565500Z",
+    "last_error": "Execution error: [WinError 2] The system cannot find the file specified",
+    "next_retry_at": "2025-11-09T18:04:08.399353Z"
+  },
+  "job2": {
+    "id": "job2",
+    "command": "sleep 2 && echo Job 2 complete",
+    "state": "dead",
+    "attempts": 3,
+    "max_retries": 3,
+    "created_at": "2025-11-09T18:04:00.574114Z",
+    "updated_at": "2025-11-09T18:04:08.642775Z",
+    "last_error": "Execution error: [WinError 2] The system cannot find the file specified",
+    "next_retry_at": "2025-11-09T18:04:08.437923Z"
+  },
+  "job3": {
+    "id": "job3",
+    "command": "ls /nonexistent",
+    "state": "dead",
+    "attempts": 3,
+    "max_retries": 3,
+    "created_at": "2025-11-09T18:04:00.785152Z",
+    "updated_at": "2025-11-09T18:04:08.674417Z",
+    "last_error": "Execution error: [WinError 2] The system cannot find the file specified",
+    "next_retry_at": "2025-11-09T18:04:08.481044Z"
+  },
+  "job4": {
+    "id": "job4",
+    "command": "echo Test && sleep 1",
+    "state": "dead",
+    "attempts": 3,
+    "max_retries": 3,
+    "created_at": "2025-11-09T18:04:01.124786Z",
+    "updated_at": "2025-11-09T18:04:08.737812Z",
+    "last_error": "Execution error: [WinError 2] The system cannot find the file specified",
+    "next_retry_at": "2025-11-09T18:04:08.549947Z"
+  }
+}
