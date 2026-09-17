@@ -689,17 +689,11 @@ rm data/*.lock
 
 ---
 
-## 📄 License
-
-This project is created as part of a technical assignment and is provided as-is for educational purposes.
-
----
-
 ## 👤 Author
 
 **Your Name**
 - GitHub: [@HimannshuYadavAIE167](https://github.com/HimannshuYadavAIE167)
-- Email: bl.en.u4aie22167@bl.students.amrita.edu
+- Email: himanshu80023@gmail.com
 
 ---
 
